@@ -31,7 +31,7 @@ let MySet = function() {
   }
 
   this.union = function(otherSet) {
-    let unionSet = new mySet();
+    let unionSet = new MySet();
     let firstSet = this.values();
     let secondSet =  otherSet.values();
 
@@ -47,7 +47,7 @@ let MySet = function() {
   }
 
   this.intersection = function(otherSet) {
-    let intersectionSet = new mySet();
+    let intersectionSet = new MySet();
     let firstSet = this.values();
 
     firstSet.forEach(function(element) {
@@ -60,7 +60,7 @@ let MySet = function() {
   }
 
   this.different = function(otherSet) {
-    let different = new mySet();
+    let different = new MySet();
     let firstSet = this.values();
 
     firstSet.forEach(function(element) {
@@ -82,6 +82,7 @@ let MySet = function() {
 
 module.exports = MySet;
 
+// // Test cases
 // let setA = new MySet();
 // let setB = new MySet();
 
@@ -92,9 +93,8 @@ module.exports = MySet;
 // setB.add('d');
 // setB.add('e');
 
-// // Test cases
 // console.log(setA.has('a')) // true
-// console.log(setB.size()); // 4
+// console.log(setB.size()); // 5
 // console.log(setA.union(setB).values()); // ['a', 'b', 'c', 'd', 'e']
 // console.log(setA.intersection(setB).values()); // ['a']
 // console.log(setB.different(setA).values()); // ['b', 'c', 'd', 'e']
