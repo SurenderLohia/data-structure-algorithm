@@ -1,9 +1,27 @@
+# Data Structure Algorithm
 
+## Fork it or Clone it
 
-https://www.youtube.com/watch?v=t2CEgPsws3U&t=397s
+### Navigate to that directory
+```
+cd data-structure-algorithm
+```
+
+### Install Required dependencies
+```
+npm install
+```
 
 ### Run test
-```npm test```
+```
+npm test
+```
 
-### Run test in watch mode
-```npm test -- --watch test/stack.js```
+### Run a sigle test file in watch mode:
+```
+npm test -- --watch test/stack.js
+```
+
+
+#### I am following this video tutorial
+[Data Structures and Algorithms in JavaScript](https://www.youtube.com/watch?v=t2CEgPsws3U&t=397s)
