@@ -81,3 +81,23 @@ let MySet = function() {
 }
 
 module.exports = MySet;
+
+// let setA = new MySet();
+// let setB = new MySet();
+
+// setA.add('a');
+// setB.add('a');
+// setB.add('b');
+// setB.add('c');
+// setB.add('d');
+// setB.add('e');
+
+// // Test cases
+// console.log(setA.has('a')) // true
+// console.log(setB.size()); // 4
+// console.log(setA.union(setB).values()); // ['a', 'b', 'c', 'd', 'e']
+// console.log(setA.intersection(setB).values()); // ['a']
+// console.log(setB.different(setA).values()); // ['b', 'c', 'd', 'e']
+// console.log(setA.subset(setB)); // true;
+
+// setB.remove('e') // true

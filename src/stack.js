@@ -28,14 +28,15 @@ var Stack = function() {
   }
 }
 
-const myStack = new Stack();
-
 module.exports = Stack;
 
-myStack.push(10);
-myStack.push(20);
-myStack.size() // 2;
-myStack.peek(); // 20
-myStack.pop() // 20
-myStack.push(30);
-myStack.peek() // 30
+// Test cases
+
+//const myStack = new Stack();
+// myStack.push(10);
+// myStack.push(20);
+// myStack.size() // 2;
+// myStack.peek(); // 20
+// myStack.pop() // 20
+// myStack.push(30);
+// myStack.peek() // 30
