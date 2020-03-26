@@ -21,7 +21,7 @@ describe('Queue', function() {
     expect(q.values()).to.deep.equal(expectedSet);
   });
 
-  it.only('#deQueue should remove element from the queue', function() {
+  it('#deQueue should remove element from the queue', function() {
     const expectedSet = ['b', 'c'];
 
     q.deQueue();

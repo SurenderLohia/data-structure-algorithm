@@ -75,6 +75,11 @@ function priorityQueue() {
   }
 }
 
+module.exports = {
+  Queue,
+  priorityQueue
+};
+
 // // Test cases
 // let q = Queue();
 // q.enQueue('a');
@@ -104,10 +109,4 @@ function priorityQueue() {
 // console.log(pq.front()); // ['CSS', 2]
 
 // console.log(pq.size()); // 2
-
-
-module.exports = {
-  Queue,
-  priorityQueue
-};
 
