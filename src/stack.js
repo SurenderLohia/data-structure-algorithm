@@ -32,11 +32,12 @@ module.exports = Stack;
 
 // Test cases
 
-//const myStack = new Stack();
+// const myStack = new Stack();
 // myStack.push(10);
 // myStack.push(20);
-// myStack.size() // 2;
-// myStack.peek(); // 20
-// myStack.pop() // 20
+// console.log(myStack.size()); // 2
+// console.log(myStack.peek()); // 20
+// console.log(myStack.pop()); // 20
+
 // myStack.push(30);
-// myStack.peek() // 30
+// console.log(myStack.peek()); // 30
